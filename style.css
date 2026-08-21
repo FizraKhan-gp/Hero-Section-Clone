@@ -34,6 +34,14 @@ hr {
     color: white;
 
 }
+.contact-btn:hover {
+    background: linear-gradient(90deg, #FF4E50 0%, #F9D423 100%);
+     cursor: pointer;
+    border: none;
+    border-radius: 30px;
+    color: rgb(26, 24, 24);
+
+}
 
 .started-btn {
     background: linear-gradient(90deg, #92EBF1 0%, #86FDE8 100%);
@@ -41,6 +49,14 @@ hr {
     border: none;
     border-radius: 30px;
     color: rgb(32, 31, 31);
+
+}
+.started-btn:hover {
+    background: linear-gradient(90deg, #03565c 0%, #86FDE8 100%);
+    cursor: pointer;
+    border: none;
+    border-radius: 30px;
+    color: rgb(221, 204, 204);
 
 }
 
