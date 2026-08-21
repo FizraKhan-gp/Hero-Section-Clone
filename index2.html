@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Big Data 2022</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Google Font -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Notable&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: "Roboto";
+        }
+
+        .hero {
+             min-height: 100vh; 
+            background-image: url(./images/image\ 33.png);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            color: white;
+            position: relative;
+        }
+
+        /* Navbar */
+
+
+        .nav-link {
+            color: white !important;
+            font-size: 14px;
+            margin: 0 12px;
+        }
+
+        .signup {
+            border-radius: 30px;
+            padding: 8px 25px;
+            font-size: 14px;
+        }
+
+        /* Hero Content */
+        /* .hero{
+            width: 1440px !important;
+            margin: 0 auto !important;
+        } */
+        .hero-content {
+            min-height: calc(70vh );
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            position: relative;
+        }
+
+        .hero-inner {
+            margin-top: -20px;
+        }
+
+        .hero-title {
+            font-size: 100px ;
+            font-weight: 700;
+
+           background: linear-gradient(90deg, #FC00FF 0%, #00DBDE 100%);
+
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+
+        }
+
+        .hero-text {
+            max-width: 620px;
+            margin: 20px auto 30px;
+            font-size: 16px;
+            line-height: 1.5;
+        }
+
+        .start-btn {
+            background: white;
+            color: #151b32;
+            border: none;
+            border-radius: 30px;
+            padding: 14px 55px;
+            font-size: 16px;
+            font-weight: 400;
+        }
+
+        .start-btn:hover {
+            background: #eee;
+            color: #111;
+        }
+
+        /* Arrows */
+        .slider-btn {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50% -50%);
+            border-radius: 50%;
+            /* display: flex;
+            align-items: center;
+            justify-content: center; */
+        }
+
+        .left-btn {
+            left: 30px;
+        }
+
+        .right-btn {
+            right: 30px;
+        }
+
+        /* Scroll icon */
+        .scroll-down {
+            position: absolute;
+            bottom: 0px;
+            left: 50%;
+            transform: translateX(-50% -50%);
+
+        }
+
+        /* Responsive */
+        @media (max-width: 991px) {
+
+            .nav-link {
+                margin: 5px 0;
+            }
+
+            .signup {
+                margin-top: 10px;
+            }
+
+            .hero-text {
+                max-width: 500px;
+                padding: 0 20px;
+            }
+
+            .left-btn {
+                left: 15px;
+            }
+
+            .right-btn {
+                right: 15px;
+            }
+        }
+
+        @media (max-width: 576px) {
+
+            .hero-title {
+                font-size: 42px;
+            }
+
+            .hero-text {
+                font-size: 22px;
+            }
+
+            .slider-btn {
+                width: 32px;
+                height: 32px;
+                font-size: 18px;
+            }
+
+            .left-btn {
+                left: 8px;
+            }
+
+            .right-btn {
+                right: 8px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <section class="hero">
+
+        <nav class="navbar navbar-expand-lg p-0">
+        <div class="container py-5  ">
+            <a class="navbar-brand ms-5" href="#"><img src="images/SiteLogo (1).png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto me-0  mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active " aria-current="page" href="index3.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active ms-3" href="index1.html">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active ms-3" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active ms-3" href="#">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active ms-3" href="#">Team</a>
+                    </li>
+                     <li class="nav-item ms-lg-3">
+                            <button class="btn btn-light signup">
+                                Sign Up
+                            </button>
+                        </li>
+
+                </ul>
+
+
+            </div>
+           
+        </div>
+    </nav>
+
+                       
+
+                   
+
+
+        <!-- Hero Content -->
+        <div class="container-fluid hero-content">
+
+            <!-- Left Arrow -->
+            <button class="slider-btn left-btn">
+                <img src="images/arrows (1).svg" alt="">
+            </button>
+
+            <div class="hero-inner">
+
+                <h1 class="hero-title">
+                    BIG DATA 2022
+                </h1>
+
+                <p class="hero-text my-3">
+                    Learn about the possibilities of digital platforms
+                    and scenarios for using Big Data, which are will be
+                    relevant for 95% of the world's countries in 2022
+                </p>
+
+                <button class="btn start-btn my-4">
+                    Get started
+                </button>
+
+            </div>
+
+            <!-- Right Arrow -->
+            <button class="slider-btn right-btn">
+                <img src="images/arrows.svg" alt="">
+            </button>
+
+
+            <!-- Scroll Down -->
+            <div class="scroll-down">
+                <img src="images/Group 7.svg" alt="">
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,133 @@
+* {
+    font-family: "Poppins", sans-serif !important;
+}
+
+
+.one {
+    background-color: #fff1e5;
+    width: 1440px !important;
+
+}
+
+hr {
+    border: 1px solid grey;
+}
+
+.main-heading {
+
+    /*  : linear-gradient(90deg, #F857A6 0%, #FF5858 100%); */
+    font-size: 42px;
+    font-weight: 700;
+
+
+}
+
+.main-heading-one {
+    font-size: 55px;
+}
+
+.contact-btn {
+    background: linear-gradient(90deg, #FF4E50 0%, #F9D423 100%);
+
+    border: none;
+    border-radius: 30px;
+    color: white;
+
+}
+
+.started-btn {
+    background: linear-gradient(90deg, #92EBF1 0%, #86FDE8 100%);
+
+    border: none;
+    border-radius: 30px;
+    color: rgb(32, 31, 31);
+
+}
+
+.two {
+    background-color: #fff5d4;
+    width: 1440px !important;
+}
+
+.Header {
+    background: linear-gradient(90deg, #FFEFBA 0%, #FFFFFF 100%);
+    overflow-x: hidden;
+}
+
+.contact {
+    width: 140;
+    height: 40;
+    opacity: 1;
+    top: 32px;
+    left: 1033px;
+    gap: 10px;
+    border-radius: 30px;
+    padding-top: 5px;
+    padding-right: 26px;
+    padding-bottom: 5px;
+    padding-left: 26px;
+    background: linear-gradient(90deg, #FFE259 0%, #FFA751 100%);
+    border: none;
+    color: white;
+}
+
+.Started {
+    width: 200;
+    height: 50;
+    angle: 0 deg;
+    opacity: 1;
+    top: 570px;
+    left: 149px;
+    gap: 10px;
+    border-radius: 30px;
+    padding-top: 9px;
+    padding-right: 45px;
+    padding-bottom: 9px;
+    padding-left: 45px;
+    border-width: 1px;
+    background: linear-gradient(90deg, #FF4E50 0%, #F9D423 100%);
+    color: #fff;
+    border: none;
+
+}
+
+
+
+
+
+
+@media (max-width: 1244px) {
+
+    /* .two-1{
+        min-height: 1000px ;
+    } */
+    .two .img-bear {
+        width: 450px;
+        height: 450px;
+
+    }
+}
+
+@media (max-width: 1084px) {
+
+    /* .two-1{
+        min-height: 1000px ;
+    } */
+    .two .img-bear {
+        width: 450px;
+        height: 450px;
+
+    }
+}
+
+@media (max-width: 662px) {
+    .two-1 {
+        min-height: 1000px;
+    }
+
+    .img-bear {
+        width: 400px;
+        height: 400px;
+
+    }
+}
